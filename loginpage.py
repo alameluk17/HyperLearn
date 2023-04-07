@@ -52,9 +52,4 @@ newuser_button = customtkinter.CTkButton(master=main, text="Sign Up", command=bu
 newuser_button.grid(row=5,column=2)
 
 
-# #reactivate
-# label_6 = Label(main,text = "       To Reactivate Membership : ",font = 40)
-# label_6.grid(row=6,column = 0)
-# button_react=Button(main,text="Click Here",command=reactivate,font=40)
-# button_react.grid(row=6,column=1)
 main.mainloop()
