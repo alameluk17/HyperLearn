@@ -1,0 +1,52 @@
+import tkinter
+#import customtkinter as ct
+import customtkinter
+    
+
+def button_function():
+    print("button pressed")
+
+customtkinter.set_appearance_mode("System")  # Modes: system (default), light, dark
+customtkinter.set_default_color_theme("dark-blue")  # Themes: blue (default), dark-blue, green
+
+#main widget    
+main=customtkinter.CTk()
+#main.geometry("400x240")
+main.title("HYPER LEARN")
+label_1=tkinter.Label(main,text="LogIn",font=60)
+label_1.grid(row=0,column=1)
+
+#login credentials
+label_2=tkinter.Label(main,text="Enter your Name              :",font=40)
+label_3=tkinter.Label(main,text="Enter your Password        :",font=40)
+entry_name=tkinter.Entry(main,width=30,bd=10,font=40)
+entry_id=tkinter.Entry(main,width=30,bd=10,font=40)
+label_2.grid(row=1,column=0)
+label_3.grid(row=2,column=0)
+entry_name.grid(row=1,column=2)
+entry_id.grid(row=2,column=2) 
+
+
+# Use CTkButton instead of tkinter Button
+submit_button = customtkinter.CTkButton(master=main, text="Submit", command=button_function)
+submit_button.grid(row=3,column=1)
+
+
+
+#configurable label 
+label_4=tkinter.Label(main,text="\n")
+label_4.grid(row=4,column=1)
+
+#new members
+label_5=tkinter.Label(main,text="For new membership         :",font=40)
+label_5.grid(row=5,column=0)
+newuser_button = customtkinter.CTkButton(master=main, text="Sign Up", command=button_function)
+newuser_button.grid(row=5,column=1)
+
+
+# #reactivate
+# label_6 = Label(main,text = "       To Reactivate Membership : ",font = 40)
+# label_6.grid(row=6,column = 0)
+# button_react=Button(main,text="Click Here",command=reactivate,font=40)
+# button_react.grid(row=6,column=1)
+main.mainloop()
