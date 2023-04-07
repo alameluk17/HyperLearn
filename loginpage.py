@@ -1,5 +1,4 @@
 import tkinter
-#import customtkinter as ct
 import customtkinter
 from PIL import ImageTk, Image
 
