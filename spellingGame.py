@@ -6,7 +6,6 @@ import pyttsx3
 import pygame
 
 
-
 def play_mp3_file(filename):
     pygame.mixer.init()
     pygame.mixer.music.load(filename)
@@ -28,7 +27,7 @@ images=['../cat.jpg','../dog.png','../fish.jpg','../bird.jpg']'''
 
 #WORDS = {'cat': '../cat.jpg', 'dog': '../dog.png', 'bird': '../bird.jpg','fish':'../fish.jpg'} 
 
-WORDS = {'cat': '../cat.gif', 'dog': '../dog.gif', 'bird': '../bird.gif','fish':'../fish.gif'}
+WORDS = {'cat': 'cat.gif', 'dog': 'dog.gif', 'bird': 'bird.gif','fish':'fish.gif'}
 
 
 # Define the word to be guessed
@@ -152,9 +151,9 @@ def on_tile_click(event):
         # If all placeholders are filled, check if the word is correct
         guessed_word = "".join([placeholder_label["text"] for placeholder_label in placeholder_labels])
         if guessed_word == word:
-            play_mp3_file('../winbanjo-96336.mp3')
+            play_mp3_file('winbanjo-96336.mp3')
             window2_main=window2("Congratulations! You've guessed correctly")
-            gif = Image.open("../gif1.gif")
+            gif = Image.open("gif1.gif")
 
             # Create a list of GIF frames
             frames = []
@@ -178,15 +177,15 @@ def on_tile_click(event):
             button1.pack()
 
             window2_main.mainloop()
-            play_mp3_file('../yay-6326.mp3')
+            play_mp3_file('yay-6326.mp3')
     
     
             
         else:
             print("Sorry, you failed. Try again.")
-            play_mp3_file('../good-6081.mp3')
+            play_mp3_file('good-6081.mp3')
             window2_main=window2("You've guessed incorrectly, but that's okay! Try again!")
-            gif = Image.open("../gif2.gif")
+            gif = Image.open("gif2.gif")
 
             # Create a list of GIF frames
             frames = []
