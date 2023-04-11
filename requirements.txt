@@ -1,0 +1,8 @@
+tk
+customtkinter
+pyaudio
+SpeechRecognition
+pydub
+pyttsx3
+pillow
+pygame
