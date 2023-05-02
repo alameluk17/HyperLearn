@@ -36,7 +36,7 @@ list = ["lion"]#" , "Sun" , "Bird" , "River", "Sunset"]
 ImageRec=customtkinter.CTk()
 #main.geometry("400x240")
 ImageRec.title("Image Recognition Game")
-image1 = Image.open("lion.jpeg")
+image1 = Image.open("media/lion.jpeg")
 image1=image1.resize((400, 400), Image.ANTIALIAS)
 test = ImageTk.PhotoImage(image1)
 
@@ -60,9 +60,9 @@ def speechtotext(str):
         print(text)
         if text != str:
             print("try again")
-            play_mp3_file('medieval-fanfare-6826.mp3')
+            play_mp3_file('media/medieval-fanfare-6826.mp3')
             window2_main=window2("You've guessed incorrectly, but that's okay! Try again!")
-            gif = Image.open("gif2.gif")
+            gif = Image.open("media/gif2.gif")
 
             # Create a list of GIF frames
             frames = []
@@ -88,9 +88,9 @@ def speechtotext(str):
             window2_main.mainloop()
         else:
             print("Correct answer")
-            play_mp3_file('crowd-cheering-143103.mp3')
+            play_mp3_file('media/crowd-cheering-143103.mp3')
             window2_main=window2("Congratulations! You've guessed correctly")
-            gif = Image.open("gif1.gif")
+            gif = Image.open("media/gif1.gif")
 
             # Create a list of GIF frames
             frames = []

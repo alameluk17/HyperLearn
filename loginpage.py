@@ -15,7 +15,7 @@ main=customtkinter.CTk()
 #main.geometry("400x240")
 main.title("HYPER LEARN")
 
-image1 = Image.open("Logo_matched.png")
+image1 = Image.open("media/Logo_matched.png")
 image1=image1.resize((500, 500), Image.ANTIALIAS)
 test = ImageTk.PhotoImage(image1)
 

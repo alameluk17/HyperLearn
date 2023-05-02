@@ -19,7 +19,7 @@ list = ["Hill" , "Sun" , "Bird" , "River", "Sunset"]
 ImageRec=customtkinter.CTk()
 #main.geometry("400x240")
 ImageRec.title("Image Recognition Game")
-image1 = Image.open("ImageRec.jpeg")
+image1 = Image.open("media/ImageRec.jpeg")
 image1=image1.resize((400, 400), Image.ANTIALIAS)
 test = ImageTk.PhotoImage(image1)
 

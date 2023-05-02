@@ -12,7 +12,7 @@ def homepage(main):
 
     home = customtkinter.CTk()
     home.title("HomePage")
-    image1 = Image.open("Logo_matched.png")
+    image1 = Image.open("media/Logo_matched.png")
     image1=image1.resize((100, 100), Image.ANTIALIAS)
     test = ImageTk.PhotoImage(image1)
 
@@ -46,21 +46,21 @@ def homepage(main):
     Points_Label1.grid(row=4, column=4)
     
 
-    gamelogo = Image.open("ImageRecoLogo.png")
+    gamelogo = Image.open("media/ImageRecoLogo.png")
     gamelogo=gamelogo.resize((200,200),Image.ANTIALIAS)
     gl = ImageTk.PhotoImage(gamelogo)
 
     logo_label = tkinter.Label(home, image = gl)
     logo_label.grid(row=2,column=0,rowspan =4)
 
-    gamelogo2 = Image.open("safarilogo.png")
+    gamelogo2 = Image.open("media/safarilogo.png")
     gamelogo2=gamelogo2.resize((200,200),Image.ANTIALIAS)
     g2 = ImageTk.PhotoImage(gamelogo2)
 
     logo_label_2 = tkinter.Label(home, image = g2)
     logo_label_2.grid(row=2,column=1,rowspan =4)
 
-    gamelogo3 = Image.open("spelbeelogo.png")
+    gamelogo3 = Image.open("media/spelbeelogo.png")
     gamelogo3 =gamelogo3.resize((200,200),Image.ANTIALIAS)
     g3 = ImageTk.PhotoImage(gamelogo3)
 

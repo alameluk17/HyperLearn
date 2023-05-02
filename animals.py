@@ -57,7 +57,7 @@ def play_mp3_file(filename):
 # Define a function to play an MP3 file
 def play_audio():
     pygame.mixer.init()
-    pygame.mixer.music.load("audio.mp3")
+    pygame.mixer.music.load("media/audio.mp3")
     pygame.mixer.music.play()
 
 
@@ -68,8 +68,8 @@ def window2(txt):
     tk.Label(window2_main, text=txt).pack()
     return window2_main
 
-WORDS = {'cat': 'cat.gif', 'dog': 'dog.gif', 'bird': 'bird.gif'}
-SOUNDS = {'cat': 'cat-meow-14536.mp3','dog': 'dog_barking-6296.mp3','bird':'cardinal-37075.mp3' }
+WORDS = {'cat': 'media/cat.gif', 'dog': 'media/dog.gif', 'bird': 'media/bird.gif'}
+SOUNDS = {'cat': 'media/cat-meow-14536.mp3','dog': 'media/dog_barking-6296.mp3','bird':'media/cardinal-37075.mp3' }
 word = random.choice(list(WORDS.keys()))
 sound = random.choice(list(SOUNDS.keys()))
 if word == sound:
@@ -137,9 +137,9 @@ def on_tile_click(event):
         win=0
     
     if(win==1):
-        play_mp3_file('crowd-cheering-143103.mp3')
+        play_mp3_file('media/crowd-cheering-143103.mp3')
         window2_main=window2("Congratulations! You've guessed correctly")
-        label=gif_Player(window2_main,"gif1.gif")
+        label=gif_Player(window2_main,"media/gif1.gif")
         button1=tk.Button(window2_main,text="Exit", command=window2_main.destroy)
         button1.pack()
 
@@ -147,9 +147,9 @@ def on_tile_click(event):
 
     else:
         print("Sorry, you failed. Try again.")
-        play_mp3_file('medieval-fanfare-6826.mp3')
+        play_mp3_file('media/medieval-fanfare-6826.mp3')
         window2_main=window2("You've guessed incorrectly, but that's okay! Try again!")
-        label=gif_Player(window2_main,"gif2.gif")
+        label=gif_Player(window2_main,"media/gif2.gif")
         button1=tk.Button(window2_main,text="Exit", command=window2_main.destroy)
         button1.pack()
 
