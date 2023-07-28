@@ -15,9 +15,14 @@ The directory consists of several audio (.mp3) and image (.jpeg, .png, .gif) fil
 Instructions
 
 1.Run 'pip -r install requirements.txt' on the terminal to install all the required python dependencies.
+
 2.Run 'py loginpage.py' and 'py homepage.py' to render the application's login and home pages respectively
+
 3.Run 'py imagerecognition.py' to play the image recognition game.
+
 4.Run 'py animal.py' to play Safari.
+
 5.Run 'py spellingGame.py' to play Spell Bee.
+
 
 Note: Appropriate sound effects are rendered across all game windows.
