@@ -26,3 +26,8 @@ Instructions
 
 
 Note: Appropriate sound effects are rendered across all game windows.
+
+
+# Credits
+
+This project was developed as a part of an 18-hour hackathon, CodeHer, by [alameluk17](https://github.com/alameluk17), [hmae004](https://github.com/hmae004) & [jahnavimurali](https://github.com/jahnavimurali) 
