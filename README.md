@@ -4,7 +4,7 @@ Learning disabilities refer to academic skill deficiencies in areas of reading, 
 Mobile/web applications are constantly increasing and people are trying to find solutions to problems in their daily life in the digital world. Addressing learning difficulties through mobile / web applications and gamified learning would be very effective for children with LD's and ADHD. The proposed solution is to develop a gamified educational platform that provides visual and auditory stimuli to enhance learning and motivation. This platform aims to help children with learning disabilities improve their understanding of language, numbers, and direction, through a reward system that keeps them engaged and motivated.
 
 
-HyperLearn - A Gamified Desktop Application for children with LDs and ADHD
+## HyperLearn - A Gamified Desktop Application for children with LDs and ADHD
 
 HyperLearn can be viewed as a supplementary tool for children with learning disabilities. The incorporation of personalised adaptive learning techniques (Parental Control) , multi-sensory stimulation (Visual and Auditory) , positive reinforcement (Celebratory cartoons and scoring system) and accessibility design (Desktop application), creates an engaging and inclusive learning experience
 Our application includes three games - Image Recognition, Safari and SpellBee. It includes a login page, where required credentials need to be entered to login/signup and on clicking the "SUBMIT" Button, the application is redirected to the home page which displays the User details: Score, Name and Age , and the games provided by the application.
@@ -17,7 +17,7 @@ SpellBee - Created to get children to practice their words and spellings. The wo
 
 The directory consists of several audio (.mp3) and image (.jpeg, .png, .gif) files that would be rendered into the respective game windows.
 
-Instructions
+## Instructions
 
 1.Run 'pip -r install requirements.txt' on the terminal to install all the required python dependencies.
 
@@ -29,34 +29,8 @@ Instructions
 
 5.Run 'py spellingGame.py' to play Spell Bee.
 
-Login page
-WhatsApp Image 2023-04-08 at 22 23 09
-
-Home page
-WhatsApp Image 2023-04-08 at 22 23 30
-
-Image Recognition game
-image
-
-image
-
-Safari
-image
-
-Spell Bee
-image
-
-For each game, if the option chosen by the child is correct, the following celebratory window is rendered.
-
-image
-
-Otherwise, the following window is rendered.
-
-image
-
 Note: Appropriate sound effects are rendered across all game windows.
 
-
-# Credits
+### Credits
 
 This project was developed as a part of an 18-hour hackathon, CodeHer, by [alameluk17](https://github.com/alameluk17), [hmae004](https://github.com/hmae004) & [jahnavimurali](https://github.com/jahnavimurali) 
