@@ -31,6 +31,37 @@ The directory consists of several audio (.mp3) and image (.jpeg, .png, .gif) fil
 
 Note: Appropriate sound effects are rendered across all game windows.
 
+## Some fun snaps from the application :)
+
+Our Login Page
+
+![image](https://github.com/user-attachments/assets/3a404d07-fd6f-4ee6-8c4d-bd1b44251481)
+
+Home Page
+
+![image](https://github.com/user-attachments/assets/ebd1112e-296e-43c9-af02-358faf5485c2)
+
+Image Recognition Game
+
+![image](https://github.com/user-attachments/assets/a22fb260-b117-40a2-a930-c2d7194154ef)
+![image](https://github.com/user-attachments/assets/8431b5de-eb59-465c-a244-b4e5546f7e05)
+
+Safari
+
+![image](https://github.com/user-attachments/assets/eb247cb9-ea1d-441c-b05c-f2600708e61d)
+
+Spell Bee
+
+![image](https://github.com/user-attachments/assets/4b0e1bdc-74ce-4b81-ae9e-976d45ca48cb)
+
+For each game, if the option chosen by the child is correct, the following celebratory window is rendered.
+
+![image](https://github.com/user-attachments/assets/4cfe4a06-6c37-4680-8858-1afa85d3f478)
+
+Otherwise, the following window is rendered.
+
+![image](https://github.com/user-attachments/assets/1636e1c1-2fb5-4e19-ab3f-9763bfb2f42f)
+
 ### Credits
 
 This project was developed as a part of an 18-hour hackathon, CodeHer, by [alameluk17](https://github.com/alameluk17), [hmae004](https://github.com/hmae004) & [jahnavimurali](https://github.com/jahnavimurali) 
