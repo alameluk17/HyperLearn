@@ -1,4 +1,9 @@
 # HyperLearn
+Learning disabilities refer to academic skill deficiencies in areas of reading, maths, and/or writing. ADHD is another high-incidence disorder occurring in approximately 5% of the population. The defining criteria for ADHD diagnosis involve the presence and severity of a significant number of symptoms, either in the area of inattention (e.g., easily distracted) or hyperactivity and impulsivity (e.g., often interrupts or intrudes).
+
+Mobile/web applications are constantly increasing and people are trying to find solutions to problems in their daily life in the digital world. Addressing learning difficulties through mobile / web applications and gamified learning would be very effective for children with LD's and ADHD. The proposed solution is to develop a gamified educational platform that provides visual and auditory stimuli to enhance learning and motivation. This platform aims to help children with learning disabilities improve their understanding of language, numbers, and direction, through a reward system that keeps them engaged and motivated.
+
+
 HyperLearn - A Gamified Desktop Application for children with LDs and ADHD
 
 HyperLearn can be viewed as a supplementary tool for children with learning disabilities. The incorporation of personalised adaptive learning techniques (Parental Control) , multi-sensory stimulation (Visual and Auditory) , positive reinforcement (Celebratory cartoons and scoring system) and accessibility design (Desktop application), creates an engaging and inclusive learning experience
@@ -24,6 +29,30 @@ Instructions
 
 5.Run 'py spellingGame.py' to play Spell Bee.
 
+Login page
+WhatsApp Image 2023-04-08 at 22 23 09
+
+Home page
+WhatsApp Image 2023-04-08 at 22 23 30
+
+Image Recognition game
+image
+
+image
+
+Safari
+image
+
+Spell Bee
+image
+
+For each game, if the option chosen by the child is correct, the following celebratory window is rendered.
+
+image
+
+Otherwise, the following window is rendered.
+
+image
 
 Note: Appropriate sound effects are rendered across all game windows.
 
